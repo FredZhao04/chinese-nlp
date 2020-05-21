@@ -4,7 +4,7 @@
 @author: Xining Zhao
 """
 
-from word_cloud import WordCloud
+from WordCloud.word_cloud.word_cloud import WordCloud
 
 if __name__=="__main__":
     # 读取文件

@@ -9,7 +9,7 @@ import jieba.posseg as pseg
 import codecs
 import os
 
-import conf
+import WordCloud.word_cloud.conf as conf
 
 def get_default_stop_words_file():
     d = os.path.dirname(os.path.realpath(__file__))

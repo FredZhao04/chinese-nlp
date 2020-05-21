@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 @author: Xining Zhao
@@ -15,8 +15,8 @@ import re
 import wordcloud # 词云展示库
 from PIL import Image # 图像处理库
 import matplotlib.pyplot as plt
-import conf
-from segmentation import WordSegmentation
+import WordCloud.word_cloud.conf as conf
+from WordCloud.word_cloud.segmentation import WordSegmentation
 
 def get_default_wc_background():
     d = os.path.dirname(os.path.realpath(__file__))
