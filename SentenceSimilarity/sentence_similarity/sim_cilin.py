@@ -6,12 +6,11 @@
 
 import codecs
 import jieba.posseg as pseg
-import pandas as pd
 
-class SimCilin:
+class SimCilin(object):
 
     def __init__(self):
-        self.cilin_path = 'data/cilin.txt'
+        self.cilin_path = '../data/cilin.txt'
         self.sem_dict = self.load_semantic()
 
     '''加载语义词典'''
@@ -73,42 +72,3 @@ class SimCilin:
         similarity = max(sum(score_words1)/len(words1), sum(score_words2)/len(words2))
 
         return similarity
-
-
-if __name__=="__main__":
-    train_data = pd.read_csv('data/sim_sentence_train.csv')
-    M = len(train_data)
-    N = 0
-    for i in range(len(train_data)):
-        sentence1 = train_data['sentence1'][i]
-        sentence2 = train_data['sentence2'][i]
-        lable = train_data['label'][i]
-
-        simer = SimCilin()
-        sim = simer.distance(sentence1, sentence2)
-        if sim >= 0.5:
-            sim = 1
-        else:
-            sim = 0
-
-        if sim == lable:
-            N += 1
-    print("准确率为: %f " % (N/M))
-
-
-    # test()
-    # train_data = pd.read_csv("data/atec_nlp_sim_train.csv", header=None)
-    # # 102475 条数据
-    # result = pd.DataFrame()
-    # sentence1 = []
-    # sentence2 = []
-    # label = []
-    # for i in range(len(train_data)):
-    #     t = str(train_data.iloc[i,0]).split('\t')
-    #     if len(t) > 3:
-    #         sentence1.append(t[1])
-    #         sentence2.append(t[2])
-    #         label.append(t[3])
-    # result['sentence1'] = sentence1
-    # result['sentence2'] = sentence2
-    # result['label'] = label

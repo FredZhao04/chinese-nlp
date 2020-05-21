@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92b306fe-9da0-4532-858a-e3cc7100fc9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordCloud/examples/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordCloud/examples/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordCloud/word_cloud/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordCloud/word_cloud/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordCloud/word_cloud/word_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordCloud/word_cloud/word_cloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,31 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordCloud/word_cloud/conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WordCloud/word_cloud/word_cloud.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#76#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="e#81#94#0" expanded="true" />
               </folding>
@@ -51,10 +28,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="e#81#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_hownet.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -81,12 +66,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py" />
-        <option value="$PROJECT_DIR$/WordCloud/word_cloud/segmentation.py" />
-        <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py" />
         <option value="$PROJECT_DIR$/WordCloud/examples/test.py" />
         <option value="$PROJECT_DIR$/WordCloud/word_cloud/conf.py" />
         <option value="$PROJECT_DIR$/WordCloud/word_cloud/word_cloud.py" />
+        <option value="$PROJECT_DIR$/WordCloud/word_cloud/segmentation.py" />
+        <option value="$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py" />
+        <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py" />
+        <option value="$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_hownet.py" />
       </list>
     </option>
   </component>
@@ -100,7 +86,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="287" />
+    <option name="x" value="466" />
     <option name="y" value="31" />
     <option name="width" value="1016" />
     <option name="height" value="797" />
@@ -134,23 +120,6 @@
               <item name="SentenceSimilarity" type="462c0819:PsiDirectoryNode" />
               <item name="sentence_similarity" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chinese-nlp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chinese-nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chinese-nlp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chinese-nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chinese-nlp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chinese-nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="word_cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +150,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.sim_cilin_test">
+    <configuration name="sim_cilin_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chinese-nlp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SentenceSimilarity/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chinese-nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +216,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sim_cilin_test" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.word_cloud" />
       </list>
@@ -245,7 +236,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="31" width="1016" height="797" extended-state="0" />
+    <frame x="466" y="31" width="1016" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -274,34 +265,27 @@
     <entry file="file://$PROJECT_DIR$/SentenceSimilarity/data/cilin.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCloud/word_cloud/segmentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#81#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WordCloud/examples/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCloud/word_cloud/word_cloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCloud/word_cloud/segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#54#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -312,15 +296,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCloud/word_cloud/word_cloud.py">
+    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_cilin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="e#76#184#0" expanded="true" />
+            <element signature="e#81#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#81#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_hownet.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
