@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: Xining Zhao
-"""
+# coding: utf-8
+
+# Author: Xining Zhao
+# Date: 2020-5-21
+
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
