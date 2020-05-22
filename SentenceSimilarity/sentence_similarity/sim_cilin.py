@@ -63,12 +63,15 @@ class SimCilin(object):
         words2 = [word.word for word in pseg.cut(sentence2) if word.flag[0] not in ['u', 'x', 'w']]
         score_words1 = []
         score_words2 = []
-        for word1 in words1:
-            score = max(self.compute_word_sim(word1, word2) for word2 in words2)
-            score_words1.append(score)
-        for word2 in words2:
-            score = max(self.compute_word_sim(word2, word1) for word1 in words1)
-            score_words2.append(score)
-        similarity = max(sum(score_words1)/len(words1), sum(score_words2)/len(words2))
+        if len(words1) != 0 and len(words2) != 0:
+            for word1 in words1:
+                score = max(self.compute_word_sim(word1, word2) for word2 in words2)
+                score_words1.append(score)
+            for word2 in words2:
+                score = max(self.compute_word_sim(word2, word1) for word1 in words1)
+                score_words2.append(score)
+            similarity = max(sum(score_words1)/len(words1), sum(score_words2)/len(words2))
 
-        return similarity
+            return similarity
+        else:
+            return 0
