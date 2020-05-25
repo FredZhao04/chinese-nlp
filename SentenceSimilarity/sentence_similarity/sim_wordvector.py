@@ -22,19 +22,18 @@ class SimWordVec(object):
     '''获取词向量'''
     def get_wordvector(self, word):#获取词向量
         try:
-            return self.model[word].reshape(1, 200)
+            return self.model[word]
         except:
-            return np.zeros(200)
+            return np.zeros(150)
     '''基于余弦相似度计算句子之间的相似度，句子向量等于字符向量求平均'''
     def similarity_cosine(self, word_list1,word_list2):#给予余弦相似度的相似度计算
-        vector1 = np.zeros(200)
+        vector1 = np.zeros(150)
         for word in word_list1:
-            vector1 = np.add(vector1, self.get_wordvector(word))
-            # vector1 += self.get_wordvector(word)
+            # vector1 = np.add(vector1, self.get_wordvector(word))
+            vector1 += self.get_wordvector(word)
         vector1=vector1/len(word_list1)
-        vector2=np.zeros(200)
+        vector2=np.zeros(150)
         for word in word_list2:
-
             vector2 += self.get_wordvector(word)
         vector2=vector2/len(word_list2)
         cos1 = np.sum(vector1*vector2)
@@ -44,7 +43,7 @@ class SimWordVec(object):
             return 0
         else:
             similarity = cos1/float(cos21*cos22)
-            return  similarity
+            return similarity
     '''计算句子相似度'''
     def distance(self, text1, text2):#相似性计算主函数
         word_list1=[word.word for word in pseg.cut(text1) if word.flag[0] not in ['w','x','u']]
