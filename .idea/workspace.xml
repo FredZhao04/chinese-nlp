@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b306fe-9da0-4532-858a-e3cc7100fc9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SentenceSimilarity/examples/sim_wordvector_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SentenceSimilarity/examples/sim_wordvector_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="14">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="e#81#100#0" expanded="true" />
               </folding>
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_wordvector_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="e#81#100#0" expanded="true" />
               </folding>
@@ -157,19 +157,19 @@
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_vsm.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_vsm_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/sentence_similarity/sim_wordvector.py" />
-        <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_minhash_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_simhash_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_wordvector_test.py" />
         <option value="$PROJECT_DIR$/SentenceSimilarity/examples/test.py" />
+        <option value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="36" />
+    <option name="x" value="77" />
+    <option name="y" value="31" />
     <option name="width" value="1336" />
     <option name="height" value="797" />
   </component>
@@ -252,28 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sim_wordvector_test">
-    <configuration name="sim_cilin_minhash_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chinese-nlp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SentenceSimilarity/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_minhash_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sim_minhash_wordvector_test">
     <configuration name="sim_minhash_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chinese-nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,6 +266,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sim_minhash_wordvector_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chinese-nlp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SentenceSimilarity/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sim_minhash_wordvector_test" />
         <item itemvalue="Python.sim_wordvector_test" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.sim_minhash_test" />
         <item itemvalue="Python.sim_simhash_test" />
-        <item itemvalue="Python.sim_cilin_minhash_test" />
       </list>
     </recent_temporary>
   </component>
@@ -382,15 +382,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="36" width="1336" height="797" extended-state="0" />
+    <frame x="77" y="31" width="1336" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1878327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1878327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#81#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_cilin_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -607,7 +597,17 @@
     <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_wordvector_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#81#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SentenceSimilarity/examples/sim_minhash_wordvector_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="e#81#100#0" expanded="true" />
           </folding>
