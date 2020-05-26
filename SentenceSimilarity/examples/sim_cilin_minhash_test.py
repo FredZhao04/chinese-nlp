@@ -41,8 +41,9 @@ if __name__=="__main__":
         #     if sim >= 0.5:
         #         N += 1
         # 总体准确率
-        if sim >= 0.5:
+        if (sim >= 0.5 and lable == 1) or (sim < 0.5 and lable == 0):
             N += 1
+
         if i % 1000 == 0:
             print("************程序运行到 %d 条**************" % i)
 
