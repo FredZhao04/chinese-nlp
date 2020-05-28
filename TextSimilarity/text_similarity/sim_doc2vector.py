@@ -78,7 +78,7 @@ class Doc2VectorBuildModel(object):
         stop_flag = ['x', 'c', 'u', 'd', 'p', 't', 'uj', 'm', 'f', 'r']
 
         # 读取文件正文
-        base_dir = '../data/train/Test/'
+        base_dir = '../data/train/C3-Art/'
         files = os.listdir(base_dir)
         raw_documents = []
         for file in files:
