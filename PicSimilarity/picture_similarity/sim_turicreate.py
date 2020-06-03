@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
+# Author: Xining Zhao
+# Date: 2020-6-3
+
 import turicreate as tc
 
 data  = tc.image_analysis.load_images('../data/')
