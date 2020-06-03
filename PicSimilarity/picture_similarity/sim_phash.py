@@ -20,8 +20,8 @@ class SimPhash(object):
     def avhash(self, im):
         if not isinstance(im, Image.Image):
             im = Image.open(im)
-        im = im.resize((8, 8), Image.ANTIALIAS).convert('L')
-        avg = reduce(lambda x, y: x + y, im.getdata()) / 64.
+        im = im.resize((64, 64), Image.ANTIALIAS).convert('L')
+        avg = reduce(lambda x, y: x + y, im.getdata()) / 4096.
         return reduce(lambda x, y_z: x | (y_z[1] << y_z[0]),
                       enumerate(map(lambda i: 0 if i < avg else 1, im.getdata())),
                       0)
@@ -35,10 +35,9 @@ class SimPhash(object):
 
     def get_most_similiar(self, image, file_path):
         """
-
         :param image: 要比对的图片路径
         :param file_path: 图片库所在的文件夹路径
-        :return: 汉明距离 + 图片名
+        :return: list [相似度 \t 图片名]
         """
         h = self.avhash(image)
         os.chdir(file_path)
@@ -48,7 +47,7 @@ class SimPhash(object):
         seq = []
         prog = int(len(images) > 50 and sys.stdout.isatty())
         for f in images:
-            seq.append((f, self.hamming(self.avhash(f), h)))
+            seq.append((f, 1 - self.hamming(self.avhash(f), h)/(64*64)))
             if prog:
                 perc = 100. * prog / len(images)
                 x = int(2 * perc / 5)

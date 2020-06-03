@@ -10,5 +10,5 @@ if __name__=="__main__":
     wd = '/Users/fred/Documents/GitHub/chinese-nlp/PicSimilarity/data/walle/'
     simer = SimPhash()
     seq = simer.get_most_similiar(im, wd)
-    for f, ham in sorted(seq, key=lambda i: i[1]):
-        print("%d\t%s" % (ham, f))
+    for f, ham in sorted(seq, key=lambda i: i[1], reverse=True):
+        print("%f\t%s" % (ham, f))
