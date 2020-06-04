@@ -25,7 +25,6 @@ class SimHistogram(object):
         if img_val >= 192 and img_val <= 223: return 6
         if img_val >= 224: return 7
 
-
     # 颜色直方图的数值计算
     def calc_bgr_hist(self, image):
         if not image.size: return False
