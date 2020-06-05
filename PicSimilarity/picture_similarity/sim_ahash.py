@@ -48,14 +48,3 @@ class SimAhash(object):
         same_count = self.compHashCode(hc1, hc2)
         similarity = same_count / (self.size[0]*self.size[1])
         return similarity
-
-if __name__=="__main__":
-    sa = SimAhash()
-    img1_path = '../data/walle/image-001.jpeg'
-    img2_path = '../data/walle/image-054.jpg'
-    # 读取图片内容
-    img1 = cv2.imread(img1_path)
-    # 读取图片内容
-    img2 = cv2.imread(img2_path)
-    r = sa.calaHashSimilarity(img1, img2)
-    print(r)
