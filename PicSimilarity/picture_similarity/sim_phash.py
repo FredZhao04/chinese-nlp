@@ -11,17 +11,16 @@ from functools import reduce
 
 from PIL import Image
 
-EXTS = ['jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG']
-
 class SimPhash(object):
-    def __init__(self):
+    def __init__(self, size=(64, 64)):
         self.EXTS = ['jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG']
+        self.size = size
 
     def avhash(self, im):
         if not isinstance(im, Image.Image):
             im = Image.open(im)
-        im = im.resize((64, 64), Image.ANTIALIAS).convert('L')
-        avg = reduce(lambda x, y: x + y, im.getdata()) / 4096.
+        im = im.resize(self.size, Image.ANTIALIAS).convert('L')
+        avg = reduce(lambda x, y: x + y, im.getdata()) / (self.size[0] * self.size[1])
         return reduce(lambda x, y_z: x | (y_z[1] << y_z[0]),
                       enumerate(map(lambda i: 0 if i < avg else 1, im.getdata())),
                       0)
