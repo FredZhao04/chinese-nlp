@@ -35,8 +35,8 @@ class SimMinhash(object):
     """需要把语料库路径可配置化"""
     def create_data(self):
         data = []
-        # base_dir = '../data/train/C3-Art/'
-        base_dir = '../data/gov_files/'
+        base_dir = '../data/train/C3-Art/'
+        # base_dir = '../data/law_files/'
         files = os.listdir(base_dir)
         for file in files:
             file_path = os.path.join(base_dir, file)
@@ -48,7 +48,7 @@ class SimMinhash(object):
         return data
 
     """参数可匹配化"""
-    def get_most_similar(self, threshold=0.8, num_perm=128, ngrams_num=3):
+    def get_most_similar(self, threshold=0.5, num_perm=128, ngrams_num=3):
         lsh = MinHashLSH(threshold=threshold, num_perm=num_perm)
 
         minhashes = {}
@@ -66,4 +66,4 @@ class SimMinhash(object):
             # 排除自身文件，若存在相似度大于0.5，则打印
             result.remove(file_name)
             if len(result) > 0:
-                print("Candidates with Jaccard similarity > 0.8 for input ", file_name, ":", result)
+                print("Candidates with Jaccard similarity > 0.5 for input ", file_name, ":", result)
